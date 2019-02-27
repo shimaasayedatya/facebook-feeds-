@@ -1,0 +1,15 @@
+.row{
+    padding-top: 50px;
+}
+
+.sidebar{
+    width: 180px;
+}
+
+.main-body-content{
+    width: 500px;
+}
+
+.right-sidebar {
+    width: 308px;
+}

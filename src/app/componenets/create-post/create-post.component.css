@@ -1,0 +1,79 @@
+.card{
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card .card-header{
+    padding: 7px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.card .card-body{
+    padding: 0;
+}
+
+.card .card-body .img-post{
+    width: 52px;
+    height: 52px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.card .card-body textarea{
+    width: 448px;
+    height: 71px;
+    border: none;
+    resize: none;
+    padding: 20px 15px;
+    outline: none;
+    border-color: trasparent;
+}
+
+.card .card-body .add-section {
+    border-top: 0.5px solid #ddfedd;
+    margin: 0 10px;
+    height: 49px;
+}
+
+.card .card-body .add-section a{
+    font-weight: 600;
+    color: #4b4f56;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.card .card-body .add-section a:hover{
+    border-radius: 50px;
+    background-color: #5e60642a;
+}
+
+.card .card-body #hide-section{
+    border-top: 0.5px solid #ddfedd;
+    height: 152px;
+}
+
+.card .card-body #hide-section .post-to{
+    height: 114px;
+}
+
+.card .card-body #hide-section .post select{
+    width: 91px;
+    height: 30px;
+    border: 1px solid#272727;
+    border-radius: 2px;
+    margin-right: 10px;    
+}
+
+.card .card-body #hide-section .post button{
+    width: 376px;
+    height: 28px;
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    font-weight: 500;
+}
+
+#hide-section{
+    display: none;
+}
